@@ -108,8 +108,8 @@ class IntentDeterminationEngine(pyee.BaseEventEmitter):
 
         Args:
             utterance(str): an ascii or unicode string representing natural language speech
-            include_tags(list): includes the parsed tags (including position and confidence)
-                as part of result
+            include_tags(bool): includes the parsed tags (including position and confidence)
+                as part of resultget_context
             context_manager(list): a context manager to provide context to the utterance
             num_results(int): a maximum number of results to be returned.
 
